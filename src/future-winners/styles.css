@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: defaults
+*/
+
+*, /* TODO remove "*" */
+#docdeti,
+#docdeti * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+}
+
+#docdeti {
+  background-color: #dbeffa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #2a4891;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/bg.png');
+  background-position: left top;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 120px;
+}
+
+#docdeti .title {
+  color: #25458F;
+  font-size: 64px;
+  text-align: center;
+  width: 990px;
+  font-weight: 700;
+}
+
+/* Content */
+#docdeti .content {
+  margin: 0 auto;
+  max-width: 1416px;
+}
+
+@media (max-width: 1023px) {
+  #docdeti {
+    padding: 150px 80px;
+  }
+
+  #docdeti .title {
+    font-size: 48px;
+    text-align: center;
+    width: 650px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 879px) {
+  #docdeti {
+    padding: 100px 25px;
+  }
+
+  #docdeti .title {
+    font-size: 22px;
+    text-align: center;
+    width: 230px;
+  }
+}

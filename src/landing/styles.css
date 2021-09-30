@@ -1,0 +1,851 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: defaults
+*/
+
+/* Reset */
+*, /* TODO remove "*" */
+#docdeti,
+#docdeti * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* Root */
+#docdeti {
+  background-color: #dbeffa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #2a4891;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/bg.png');
+  background-position: left top;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  padding: 0 120px 200px 120px;
+}
+
+/* Section */
+#docdeti section {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* Button */
+#docdeti .button {
+  text-decoration: none;
+  line-height: 47px;
+  height: 47px;
+  width: 328px;
+  border-radius: 16px;
+  background: #2A4891;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .2s ease-out;
+}
+
+#docdeti .button_big {
+  height: 65px;
+  line-height: 65px;
+  width: 358px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+#docdeti .button:hover {
+  background: #385ebe;
+}
+
+/* Hidden */
+#docdeti .hidden {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+/* Breaks */
+/* #docdeti .break_desktop {} */
+
+#docdeti .break_tablet {
+  display: none;
+}
+
+#docdeti .break_mobile {
+  display: none;
+}
+
+/* Section title */
+#docdeti .section-title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Content */
+#docdeti .content {
+  margin: 0 auto;
+  max-width: 1416px;
+}
+
+/* Hero */
+#docdeti .hero {
+  margin: 0 auto;
+  padding: 100px 0 30px 0;
+  position: relative;
+}
+
+#docdeti .hero__cover-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#docdeti .hero__cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+#docdeti .hero__title-img {
+  position: relative;
+  width: 45%;
+}
+
+#docdeti .hero__mark-img {
+  position: relative;
+  margin-top: 47px;
+  width: 63%;
+}
+
+#docdeti .hero__age-limit-img {
+  position: absolute;
+  bottom: 20px;
+  right: -20px;
+  height: 40px;
+  width: 40px;
+}
+
+/* How to */
+#docdeti .how-to {
+  max-width: 1039px;
+  margin-top: 100px;
+}
+
+#docdeti .how-to__title {
+  color: #2a4891;
+  font-size: 46px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#docdeti .how-to__icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 62px;
+}
+
+#docdeti .how-to__icon {
+  display: block;
+  flex: 0 0 86px;
+  height: 86px;
+  border-radius: 100%;
+  border: 3px solid #F90955;
+  line-height: 82px;
+  text-align: center;
+  font-size: 65px;
+}
+
+#docdeti .how-to__icon_mobile {
+  display: none;
+}
+
+#docdeti .how-to__arrow {
+  flex: 1 1 100%;
+  background: center/contain no-repeat url('./img/arrow-solid.svg');
+  margin: 0 13px;
+}
+
+/* #docdeti .how-to__list-container {} */
+
+#docdeti .how-to__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+#docdeti .how-to__item {
+  flex: 0 0 210px;
+}
+
+#docdeti .how-to__item:nth-child(2n) {
+  margin: 0 30px;
+  flex: 1 1 auto;
+}
+
+#docdeti .how-to__mobile-arrow {
+  display: none;
+}
+
+/* Actions */
+#docdeti .actions {
+  max-width: 871px;
+  margin: 200px auto 0 auto;
+}
+
+#docdeti .actions__title {
+  text-align: center;
+  font-weight: 400;
+  max-width: 871px;
+}
+
+#docdeti .actions__links {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+#docdeti .actions__link {
+  flex: 0 0 360px;
+}
+
+#docdeti .actions__link:not(:last-child) {
+  margin-right: 80px;
+}
+
+/* Prizes */
+#docdeti .prizes {
+  margin-top: 200px;
+}
+
+#docdeti .prizes__title {
+  font-weight: 400;
+}
+
+#docdeti .prizes__items {
+  list-style: none;
+  margin-top: 36px;
+}
+
+#docdeti .prizes__item {
+  display: flex;
+  align-items: flex-start;
+}
+
+#docdeti .prizes__item:not(:first-child) {
+  margin-top: 30px;
+}
+
+#docdeti .prizes__icon {
+  flex: 0 0 45px;
+  margin-right: 30px;
+}
+
+#docdeti .prizes__desc {
+  flex: 1 1 100%;
+}
+
+/* What is */
+#docdeti .what-is {
+  margin-top: 200px;
+}
+
+/* #docdeti .what-is__title {} */
+
+#docdeti .what-is__desc {
+  margin-top: 42px;
+}
+
+/* Advantages */
+#docdeti .advantages {
+  margin-top: 200px;
+}
+
+/* #docdeti .advantages__title {} */
+
+#docdeti .advantages__list {
+  margin-top: 42px;
+  list-style: numeric inside;
+}
+
+#docdeti .advantages__item:not(:first-child) {
+  margin-top: 30px;
+}
+
+#docdeti .advantages__mark {
+  margin-top: 24px;
+  font-size: 24px;
+}
+
+/* Conditions */
+#docdeti .conditions {
+  margin-top: 200px;
+}
+
+#docdeti .conditions__title {
+  font-weight: 400;
+}
+
+#docdeti .conditions__list {
+  margin-top: 42px;
+  list-style: disc outside;
+}
+
+#docdeti .conditions__note {
+  margin-top: 30px;
+}
+
+/* Terms and conditions */
+#docdeti .tcs {
+  margin-top: 200px;
+  font-size: 16px;
+  color: #212E4E;
+}
+
+/* #docdeti .tcs__button {} */
+
+/* #docdeti .tcs__button:hover {} */
+
+#docdeti .tcs__content {
+  margin-top: 100px;
+}
+
+#docdeti .tcs__content_hidden {
+  display: none;
+}
+
+#docdeti .tcs__title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#docdeti .tcs__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#docdeti .tcs__text {
+  margin-top: 30px;
+}
+
+#docdeti .tcs__table {
+  border-collapse: collapse;
+  margin-top: 31px;
+}
+
+#docdeti .tcs__table td {
+  padding: 12px 8px;
+  text-align: center;
+}
+
+#docdeti td.tcs__cell_left {
+  text-align: left;
+}
+
+/* Shop button */
+#docdeti .shop-btn {
+  margin-top: 100px;
+}
+
+@media (max-width: 1120px) {
+  #docdeti .break_desktop {
+    display: none;
+  }
+}
+
+/* Tablet start */
+@media (max-width: 1023px) {
+  /* Root */
+  #docdeti {
+    font-size: 24px;
+    padding: 0 80px 150px 80px;
+  }
+
+  /* Breaks */
+  #docdeti .break_desktop {
+    display: none;
+  }
+
+  #docdeti .break_tablet {
+    display: inline;
+  }
+
+  #docdeti .break_mobile {
+    display: none;
+  }
+
+  /* Section title */
+  #docdeti .section-title {
+    font-size: 36px;
+  }
+
+  /* Hero */
+  #docdeti .hero {
+    padding: 0;
+  }
+
+  #docdeti .hero__cover-container {
+    position: relative;
+    height: auto;
+  }
+
+  #docdeti .hero__cover {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #docdeti .hero__title-img {
+    width: 66%;
+    margin-top: 20px;
+  }
+
+  #docdeti .hero__mark-img {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #docdeti .hero__age-limit-img {
+    bottom: 0;
+    right: 0;
+  }
+
+  /* How to */
+  #docdeti .how-to {
+    margin-top: 75px;
+  }
+
+  #docdeti .how-to__title {
+    font-size: 46px;
+  }
+
+  /* #docdeti .how-to__icons {} */
+
+  /* #docdeti .how-to__icon {} */
+
+  /* #docdeti .how-to__arrow {} */
+
+  #docdeti .how-to__list {
+    margin-top: 30px;
+  }
+
+  /* #docdeti .how-to__item {} */
+
+  /* #docdeti .how-to__item:nth-child(2n) {} */
+
+  /* Actions */
+  #docdeti .actions {
+    margin-top: 150px;
+  }
+
+  /* #docdeti .actions__title {} */
+
+  /* #docdeti .actions__links {} */
+
+  /* #docdeti .actions__link {} */
+
+  #docdeti .actions__link:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  /* Prizes */
+  #docdeti .prizes {
+    margin-top: 150px;
+  }
+
+  #docdeti .prizes__items {
+    margin-top: 30px;
+  }
+
+  /* #docdeti .prizes__item {} */
+
+  #docdeti .prizes__item:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  /* #docdeti .prizes__icon {} */
+
+  /* #docdeti .prizes__desc {} */
+
+  /* What is */
+  #docdeti .what-is {
+    margin-top: 150px;
+  }
+
+  /* #docdeti .what-is__title {} */
+
+  #docdeti .what-is__desc {
+    margin-top: 30px;
+  }
+
+  /* Advantages */
+  #docdeti .advantages {
+    margin-top: 150px;
+  }
+
+  /* #docdeti .advantages__title {} */
+
+  #docdeti .advantages__list {
+    margin-top: 36px;
+  }
+
+  #docdeti .advantages__item:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  #docdeti .advantages__mark {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  /* Conditions */
+  #docdeti .conditions {
+    margin-top: 150px;
+  }
+
+  /* #docdeti .conditions__title {} */
+
+  #docdeti .conditions__list {
+    margin-top: 36px;
+  }
+
+  #docdeti .conditions__note {
+    margin-top: 24px;
+  }
+
+  /* Terms and conditions */
+  #docdeti .tcs {
+    margin-top: 150px;
+  }
+
+  /* #docdeti .tcs__button {} */
+
+  /* #docdeti .tcs__button:hover {} */
+
+  #docdeti .tcs__content {
+    margin-top: 75px;
+  }
+
+  /* #docdeti .tcs__content_hidden {} */
+
+  /* #docdeti .tcs__title {} */
+
+  /* #docdeti .tcs__subtitle {} */
+
+  /* #docdeti .tcs__text {} */
+
+  /* #docdeti .tcs__table {} */
+
+  /* #docdeti .tcs__table td {} */
+
+  /* #docdeti td.tcs__cell_left {} */
+
+  /* Shop button */
+  #docdeti .shop-btn {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 900px) {
+  #docdeti .break_tablet {
+    display: none;
+  }
+}
+
+/* Mobile start */
+@media (max-width: 879px) {
+  /* Root */
+  #docdeti {
+    font-size: 16px;
+    padding: 0 25px 100px 25px;
+  }
+
+  /* Breaks */
+  #docdeti .break_desktop {
+    display: none;
+  }
+
+  #docdeti .break_tablet {
+    display: none;
+  }
+
+  #docdeti .break_mobile {
+    display: inline;
+  }
+
+  /* Section title */
+  #docdeti .section-title {
+    font-size: 20px;
+  }
+
+  /* Hero */
+  #docdeti .hero__title-img {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  #docdeti .hero__mark-img {
+    margin-top: 10px;
+  }
+
+  #docdeti .hero__age-limit-img {
+    height: 30px;
+    width: 30px;
+    bottom: 0;
+    right: 0;
+  }
+
+  /* How to */
+  #docdeti .how-to {
+    margin-top: 50px;
+  }
+
+  #docdeti .how-to__title {
+    font-size: 24px;
+  }
+
+  #docdeti .how-to__icons {
+    display: none;
+  }
+
+  /* #docdeti .how-to__icon {} */
+
+  /* #docdeti .how-to__arrow {} */
+
+  #docdeti .how-to__list-container {
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #docdeti .how-to__list {
+    font-size: 14px;
+    margin-top: 25px;
+    flex-direction: column;
+  }
+
+  #docdeti .how-to__item {
+    flex: 1 1 auto;
+  }
+
+  #docdeti .how-to__item:not(:first-child) {
+    margin-top: 34px;
+  }
+
+  #docdeti .how-to__icon_mobile {
+    width: 57px;
+    height: 57px;
+    flex: none;
+    font-size: 45px;
+    line-height: 49px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #docdeti .how-to__mobile-arrow {
+    display: block;
+    position: absolute;
+  }
+
+  #docdeti .how-to__mobile-arrow_1 {
+    left: 30px;
+    top: 40px;
+    width: 40px;
+  }
+
+  #docdeti .how-to__mobile-arrow_2 {
+    right: 10;
+    bottom: 60px;
+    width: 50px;
+  }
+
+  /* Actions */
+  #docdeti .actions {
+    margin-top: 100px;
+  }
+
+  /* #docdeti .actions__title {} */
+
+  #docdeti .actions__links {
+    margin-top: 43px;
+    display: block;
+  }
+
+  #docdeti .actions__link {
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  #docdeti .actions__link:not(:last-child) {
+    margin: 0 auto;
+  }
+
+  #docdeti .actions__link:not(:first-child) {
+    margin-top: 13px;
+  }
+
+  /* Prizes */
+  #docdeti .prizes {
+    margin-top: 100px;
+  }
+
+  #docdeti .prizes__items {
+    margin-top: 20px;
+  }
+
+  /* #docdeti .prizes__item {} */
+
+  #docdeti .prizes__item:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  #docdeti .prizes__icon {
+    margin-right: 5px;
+  }
+
+  /* #docdeti .prizes__desc {} */
+
+  /* What is */
+  #docdeti .what-is {
+    margin-top: 100px;
+  }
+
+  /* #docdeti .what-is__title {} */
+
+  #docdeti .what-is__desc {
+    margin-top: 20px;
+  }
+
+  /* Advantages */
+  #docdeti .advantages {
+    margin-top: 100px;
+  }
+
+  /* #docdeti .advantages__title {} */
+
+  #docdeti .advantages__list {
+    margin-top: 20px;
+  }
+
+  #docdeti .advantages__item:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  #docdeti .advantages__mark {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  /* Conditions */
+  #docdeti .conditions {
+    margin-top: 100px;
+  }
+
+  /* #docdeti .conditions__title {} */
+
+  #docdeti .conditions__list {
+    margin-top: 20px;
+  }
+
+  #docdeti .conditions__note {
+    margin-top: 16px;
+  }
+
+  /* Terms and conditions */
+  #docdeti .tcs {
+    margin-top: 100px;
+  }
+
+  #docdeti .tcs__button {
+    height: 40px;
+    line-height: 40px;
+    max-width: 300px;
+    font-size: 22px;
+    width: 100%;
+  }
+
+  /* #docdeti .tcs__button:hover {} */
+
+  #docdeti .tcs__content {
+    margin-top: 50px;
+    font-size: 10px;
+  }
+
+  /* #docdeti .tcs__content_hidden {} */
+
+  #docdeti .tcs__title {
+    font-size: 10px;
+  }
+
+  #docdeti .tcs__subtitle {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #docdeti .tcs__text {
+    margin-top: 20px;
+  }
+
+  #docdeti .tcs__table {
+    font-size: 10px;
+  }
+
+  /* #docdeti .tcs__table td {} */
+
+  /* #docdeti td.tcs__cell_left {} */
+
+  /* Shop button */
+  #docdeti .shop-btn {
+    margin-top: 50px;
+    height: 40px;
+    line-height: 40px;
+    max-width: 300px;
+    font-size: 22px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  #docdeti .actions__links {
+    margin-top: 30px;
+  }
+
+  #docdeti .actions__link {
+    font-size: 16px;
+  }
+}
